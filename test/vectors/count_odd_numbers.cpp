@@ -10,9 +10,9 @@ int main()
     {
         if (arr[i] % 2 != 0)
         {
-            ans++ ;
+            ans++;
         }
     }
-    cout<<ans<<endl;
+    cout << ans << endl;
     return 0;
 }
