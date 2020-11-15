@@ -1,5 +1,5 @@
 <img
-src="https://raw.githubusercontent.com/sahilduhan/learn-c-plus-plus/main/images/dsa.png"
+src="https://raw.githubusercontent.com/learn-opensource/data-structures-and-algorithms/main/images/dsa.png"
 alt="Image taken from geeks from geeks. rights reserved to respective owner."
 width="100%"
 height="auto"
