@@ -2,28 +2,32 @@
 int main()
 {
     char operator;
-    double first, second;
+    double first, second, sum, product, division, subtraction;
     printf("enter the operator:(+,-,*,/) ");
     scanf("%c", operator);
     printf("enter the first and second value: ");
     scanf(" %d %d", &first, &second);
+    sum = first + second;
+    product = first * second;
+    division = first / second;
+    subtraction = first - second;
+
     switch (operator)
     {
+    case '*':
+        printf("the product is: ", sum);
+        break;
     case '+':
-        printf("%.1lf + %.1lf = %.1lf", first, second, first + second);
+        printf("the sum is:\n", sum);
         break;
     case '-':
-        printf("%.1lf - %.1lf = %.1lf", first, second, first - second);
-        break;
-    case '*':
-        printf("%.1lf * %.1lf = %.1lf", first, second, first * second);
+        printf("the diffrence is:\n", subtraction);
         break;
     case '/':
-        printf("%.1lf / %.1lf = %.1lf", first, second, first / second);
+        printf("the division is:\n", division);
         break;
-        // operator doesn't match any case constant
     default:
-        printf("Error! operator is not correct");
-
-        return 0;
+        printf("error");
     }
+    return 0;
+}
