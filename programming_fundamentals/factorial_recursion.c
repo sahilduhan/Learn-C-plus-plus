@@ -1,5 +1,5 @@
 #include <stdio.h>
-long int factorial_num(int num);
+long long int factorial_num(int num);
 int main()
 {
     int num;
@@ -9,7 +9,7 @@ int main()
     return 0;
 }
 
-long int factorial_num(int num)
+long long int factorial_num(int num)
 {
     if (num >= 1)
         return num * factorial_num(num - 1);
