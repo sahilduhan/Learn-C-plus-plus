@@ -7,6 +7,8 @@ int main()
     int i = 0, j = 0, k = 0, len1 = 0, len2 = 0;
 
     // converting string to an 2D array
+    printf("this programme belongs to sahil duhan 2k20/b9/12\n");
+    printf("the string after removing the word is :\n");
     for (i = 0; string_val[i] != '\0'; i++)
     {
         if (string_val[i] == ' ')
