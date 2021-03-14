@@ -20,7 +20,7 @@ int main()
     {
         for (int j = 1; j <= i; j++)
         {
-            cout << fact(i) / (fact(j) * fact(i - j));
+            cout << fact(i) / (fact(j) * fact(i - j)) << " ";
         }
         cout << endl;
     }
