@@ -83,13 +83,14 @@ int main()
     }
 
     // the lower limit of interval.
-    float lower_limit[] = {0, 10, 20, 30, 40, 50, 60};
+    float lower_limit[] = {0, 10, 20, 30, 40, 50, 60, 70, 80, 90};
 
     // the upper limit of interval.
-    float upper_limit[] = {10, 20, 30, 40, 50, 60, 70};
+    float upper_limit[] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+    float mid[] = {5, 15, 25, 35, 45, 55, 65, 75, 85, 95};
 
     int n = sizeof(lower_limit) / sizeof(lower_limit[0]);
     cout << "standard deviation " << groupedSD(lower_limit, upper_limit, freq, n) << endl;
-    cout << "mean " << mean(arr, freq, n);
+    cout << "mean " << mean(mid, freq, n);
     return 0;
 }
