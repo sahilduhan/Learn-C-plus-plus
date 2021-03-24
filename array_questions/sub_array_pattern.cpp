@@ -8,7 +8,11 @@ int main()
     {
         for (int j = i; j < size; j++)
         {
-            cout << arr[j] << " ";
+            for (int k = i; k <= j; k++)
+            {
+                cout << arr[k] << " ";
+            }
+            cout << endl;
         }
     }
 
